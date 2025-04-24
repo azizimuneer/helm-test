@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: python-pod
-        image: 283857190015.dkr.ecr.us-gov-west-1.amazonaws.com/kafka-custom:latest
+        image: ACCOUNTID.dkr.ecr.us-gov-west-1.amazonaws.com/kafka-custom:latest
         ports:
         - containerPort: 8080
         resources:
